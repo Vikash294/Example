@@ -1,0 +1,17 @@
+.fas{
+  font-size:40px;
+  color:$tertiaryColor;
+  position: absolute;
+  &.fa-times{
+    top:20px;
+    right:20px;
+  }
+  &.fa-bars{
+    top:20px;
+    right:20px;
+  }
+}
+.header__topnav{
+  padding:20px;
+}
+

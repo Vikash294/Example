@@ -1,0 +1,38 @@
+nav{
+  padding:3*$padding;
+  width:100%;
+  z-index:3;
+  display:none;
+  position: fixed;
+  top:0px;
+  right:0px;
+  background:$primaryColor;
+  
+  ul{
+    li{
+      padding:$padding;
+      text-align:center;
+    }
+    a{
+      color:$secondaryColor;
+      text-transform:uppercase;
+      
+    }
+  }
+}
+
+.header__navigation--active {
+  text-decoration: underline;
+  text-decoration-color: $tertiaryColor;
+}
+
+.active{
+  display:block;
+}
+.header__topnav--logo{
+  display:inline-block;
+  vertical-align: middle;
+}
+
+
+

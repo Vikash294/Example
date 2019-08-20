@@ -1,0 +1,14 @@
+@import 'variables';
+@import 'images';
+@import 'nav';
+@import 'cssReset';
+@import 'icons';
+@import 'content';
+@import 'media';
+
+
+
+body{
+  background: $primaryColor;
+  color: $secondaryColor;
+}
